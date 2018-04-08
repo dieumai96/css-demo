@@ -1,0 +1,99 @@
+.main-content{
+    margin-top: 10px;
+    .time-line-item{
+        background: $white;
+        border:15px solid $body-bg;
+        padding: 20px;
+        h4{
+            font-family: 'Lato', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+        p{
+            color : $gray-light;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.2em;
+           
+        }
+        p:before{
+          
+            content : 'Title description, ';
+            color : $black;
+        }
+        img{
+            margin-top: 7px;
+            width: 100%;
+        }
+        .text-description{
+        
+            margin-top: 2rem;
+           font-family: "Open Sans";
+           font-size: 1em;
+           color : $black;
+            &:before{
+                font-weight: bold;
+                content : 'More Hats! ';
+                color : $black;
+            }
+        }
+        .text-description1{
+        
+            margin-top: 1rem;
+           font-family: "Open Sans";
+           font-size: 1em;
+           color : $black;
+           &:before{
+               content : '';
+           }
+           
+        }
+        .btn-danger{
+            border: 1px solid $gray-light;
+            border-radius: 0;
+        }
+        .btn-primary{
+            border-radius: 0;
+            font-weight: $bold;
+            -webkit-transition: all 0.1s ease;
+            -moz-transition: all 0.1s ease;
+            -o-transition: all 0.1s ease;
+            transition: all 0.1s ease;
+            &:hover{
+                background-color: $gray-light;
+                border:1px solid $gray-light;
+            }
+           
+        }
+        hr{
+            margin-top: 2em;
+        }
+        .comment {
+            img{
+              
+            }
+            .dsc-comment{
+                
+                .des-1{
+                    margin-top: 1rem;
+                    font-size: 1em;
+                    margin-bottom: 0px;
+                    &:before{
+                        content : 'George ';
+                        font-size: 1.5em;
+                    }
+                }
+                .des-2{
+                    font-family: "Open Sans";
+                    font-size: .9em;
+                    color : #2d2d2d;
+                    &:before{
+                        content : '';
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}

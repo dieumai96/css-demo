@@ -1,0 +1,24 @@
+.header-card{
+    background: $black;
+    color : $white;
+  
+    height: 35px;
+    .float-right{
+        line-height: 24px;
+      
+    }
+}
+.w-btn-primary{
+    font-size: 1em;
+    line-height: 35px;
+    height: 100%;
+    padding: 5px 8px 5px 13px;
+    &:hover{
+        
+        background: $gray-light;
+    }
+}
+.w-btn-primary:not(:last-of-type)::before{
+    display: inline-block;
+    color: rgba($gray-light, 0.4);
+}

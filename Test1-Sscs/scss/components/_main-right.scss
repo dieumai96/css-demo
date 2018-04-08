@@ -1,0 +1,189 @@
+.main-right{
+    padding: 15px 15px 15px 0;
+    .card{
+        border: 0px;
+        background: $black;
+        color : $white;
+        h5{
+            font-family: 'Lato', sans-serif;
+            font-family: 'Oswald', sans-serif;
+         
+        }
+    }
+   .popular-posts{
+       margin-top: 34px;
+       .w-heading{
+           .list-group{
+               list-style: none;
+               padding: 0px;
+               margin: 0px;
+               background: $white;
+            .title-popular{
+                background: $black;
+                height: 65px;
+                line-height: 65px;
+                padding-left: 10px;
+                font-family: 'Lato', sans-serif;
+                font-family: 'Oswald', sans-serif;
+                color : $white;
+                margin-bottom: 0px;
+            } 
+            .list-group-item{
+                padding: 0;
+                &:hover{
+                    background: $gray-light;
+                }
+                .comment{
+                    padding: 10px;
+                    width: 100%;
+                    img{
+                      width: 50px;
+                    }
+                    .des-1{
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            }
+       }
+   }
+   .advertise{
+       margin-top: 35px;
+      
+       h5{
+        background: $black;
+        height: 65px;
+        line-height: 65px;
+        padding-left: 10px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color : $white;
+        margin-bottom: 0px;
+       }
+       .maining{
+           height: 200px;
+           padding: 1em;
+            background: white;
+            .d-flex{
+                background: $gray;
+                height: 100%;
+                
+                h6{
+                    font-weight: normal;
+                }
+            }
+          
+       }
+   }
+   .all-tags{
+       margin-top: 35px;
+       h5{
+        background: $black;
+        height: 65px;
+        line-height: 65px;
+        padding-left: 10px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        color : $white;
+        margin-bottom: 0px;
+       }
+       .all-items-tag{
+           height: auto;
+           background: $white;
+           padding: 15px 10px 10px 10px;
+           .social-item:first-child{
+                background: $black;
+              
+                padding: 2px 10px;        
+                a{
+                    color : $white;
+                }      
+           }
+           .social-item{
+               background: $gray;
+               margin-bottom: 21px;
+               padding: 0 4px;
+               a{
+                   font-size: .9em;
+               }
+           }
+       }
+      
+   }
+   .inspiration{
+    margin-top: 35px;
+    h5{
+     background: $black;
+     height: 65px;
+     line-height: 65px;
+     padding-left: 10px;
+     font-family: 'Lato', sans-serif;
+     font-family: 'Oswald', sans-serif;
+     color : $white;
+     margin-bottom: 0px; 
+    }
+        .ins-main{
+            background: $white;
+            padding: 15px 0 0 0;
+            .space-bottom{
+                margin-bottom: 15px;
+               
+                
+            }
+        }
+}
+    .followme{
+        margin-top: 35px;
+        background: $white;
+        h5{
+            background: $black;
+            height: 65px;
+            line-height: 65px;
+            padding-left: 10px;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            color : $white;
+            margin-bottom: 0px; 
+        }
+        .all-contacts{
+            padding: 15px 0 1px 10px;
+            i{
+                font-size: 1.3em;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                &:hover{
+                    color : $gray-light;
+                }
+            }
+        }
+
+    }
+    .subscribe{
+        margin-top: 35px;
+        h5{
+            background: $black;
+            height: 65px;
+            line-height: 65px;
+            padding-left: 10px;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            color : $white;
+            margin-bottom: 0px; 
+        }
+        .form-contact{
+            background: $white;
+            padding: 10px;
+            .btn {
+                margin-top: 15px;
+
+                border-radius: 0;
+                width: 100%;
+                font-family: "Open Sans";
+                
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+$gray : #f1f1f1;
+$white : #FFF;
+
+$black : #000;
+$gray-light : lighten(#2d2d2d,40%);
+$body-bg: lighten($gray-light,30%);   
+$brand-primary : $black;
+$brand-success  : $gray-light;
+$brand-info : $gray-light;
+$brand-danger : $white;
+$brand-warning : #f44336;

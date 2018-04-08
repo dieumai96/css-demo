@@ -1,0 +1,67 @@
+.hero{
+    height: auto;
+    padding: 5vmax 0;
+    background: $white;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    .display-4{
+        font-weight: bold;
+        font-weight: $sans;
+        color: $black;
+        font-size: 45px;
+    }
+    .welcome{
+        margin-top: 1.2em;
+        .name-jane{
+            background-color: $black;
+            color :$white;
+            padding: 2px 5px;
+        }
+    }
+}
+.hero-image{
+    position: relative;
+    .card-img{
+       
+        
+    }.card-img-overlay{
+        color : $white;
+        position: absolute;
+        top: 30%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        @include media-breakpoint-down(xs){
+            color : $white;
+            position: absolute;
+            top: 20%;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            
+
+        }
+        .display-4{
+            display: block;
+            font-weight: bold;
+            font-weight: $sans;
+            color: $black;
+            font-size: 70px !important;
+            color : $white;
+            margin-top: 2rem;
+            @include media-breakpoint-down(xs){
+                display: none;
+
+
+            }
+        
+        }
+        .btn{
+            padding: 12px 27px;
+            margin-top: 1.4rem;
+            border-radius: 0px;
+            text-transform: uppercase;
+            color : $black;
+        }
+     
+    }
+}
